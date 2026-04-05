@@ -1,0 +1,31 @@
+class M5 
+{
+	public static void main(String[]args)
+	{
+		prime(5);
+		prime(10);
+	}
+		
+	public static void prime(int num )
+	{
+	    int den=2;
+		while (num>den)
+		
+		{
+			if (num%den==0)
+			{
+				break;
+			}
+			den++;
+		}
+			if (num==den)
+			{
+				System.out.println("prime number");
+			}
+				else
+			{
+					System.out.println("not prime number");
+		}
+
+}
+}

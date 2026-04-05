@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class tax
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Entre the tax:");
+		double tax=sc.nextDouble();
+		if (tax>50000){
+			tax=tax-(tax*0.10);
+		}
+		else if(tax>70000){
+			tax=tax-(tax*0.20);
+		}
+		else{
+			tax=tax-(tax*0.30);
+			System.out.println("tax to paid:"+tax);
+		}
+	}
+}

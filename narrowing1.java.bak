@@ -1,0 +1,9 @@
+class narrowing1 
+{
+	public static void main(String[] args) 
+	{
+		double d1=()125;
+		System.out.println(d1);
+	
+	}
+}

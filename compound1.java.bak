@@ -1,0 +1,9 @@
+class compound1 
+{
+	public static void main(String[] args) 
+	{
+		int sal=10342;
+		sal/=2345;
+		System.out.println(sal);
+	}
+}

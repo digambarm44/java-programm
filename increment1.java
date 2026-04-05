@@ -1,0 +1,12 @@
+class increment1 
+{
+	public static void main(String[] args) 
+	{
+		int i=123;
+		System.out.println(++i);//124
+		System.out.println(++i);//125
+		System.out.println(i++);//125
+		System.out.println(i++);//126
+		System.out.println(++i+i++);//253
+	}
+}

@@ -1,0 +1,33 @@
+class strongno
+{
+	public static int factorial(int num) 
+	{
+		int fact=1;
+		while (num>1)
+		{
+			fact=fact*num;
+			num--;
+		}
+		return fact;
+	}
+	public static boolean isstrong(int num)
+	{
+		int sum=0;
+		for (int i=num;i!=0;i/=10 )
+		{
+			int lastnum=i%10;
+			sum=sum+factorial(lastnum);
+		}
+		return num==sum;
+}
+public static void main(String[]args)
+	{
+	if (isstrong(141))
+	{
+		System.out.println("Strong no");
+	}
+	else{
+		System.out.print(" not Strong no");
+	}
+	}
+}

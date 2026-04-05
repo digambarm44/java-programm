@@ -1,0 +1,14 @@
+class decrement1 
+{
+	public static void main(String[] args) 
+	{
+		int i=125;
+		System.out.println(--i);//123
+		System.out.println(--i);//122
+		System.out.println(i--);//122
+		System.out.println(i--);//121
+		System.out.println(--i-i--);//
+	}
+}
+	
+

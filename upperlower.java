@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class upperlower
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("entre the character:");
+		char ch=sc.next().charAt(0);
+		String op=((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='a'))?
+			       (ch+"it is uppercase"):
+		           (ch+"it is lowercase"));
+		((ch>='0'&&ch<='9')?
+			(ch+"it is digit"):
+			(ch+"it is specialcharacter"));
+		System.out.println(op);
+	}
+}
+		         

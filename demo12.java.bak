@@ -1,0 +1,10 @@
+class demo12 
+{
+	public static void main(String[] args) 
+	{
+		float a=1.1f;
+		float b=2.2f;
+		float result=a/b;
+		System.out.println(result);
+	}
+}

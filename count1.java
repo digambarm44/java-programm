@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class count1
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the start digit:");
+		int start=sc.nextInt();
+		System.out.println("Enter the end digit:");
+		int end=sc.nextInt();
+		for (int t=0;;t++)
+		{
+			System.out.println(t);
+			t++;
+		}
+	}
+}
+		
+	

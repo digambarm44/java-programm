@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class digit5
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("entre the value:");
+		char ch=sc.next().charAt(0);
+		String op=((ch>='65'&&ch<='90')||(ch>='97'&&ch<='122'))?(ch+"Alphabets"):(ch+"not character");
+		((ch>='48'&&ch<='57')?(ch+"digit"):(ch+"not digit"));
+		System.out.println(op);
+		
+	}
+}
